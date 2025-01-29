@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="data/style.css">
+    <script src="data/script.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <label class="switch">
+            <input type="checkbox" id="checkbox" onclick="changeBackground()">
+            <span class="slider round"></span>
+        </label>
+        <div id="heading">Minesweeper</div>
+        <div id="creater">
+            <h4 class="text">created by:</h4>
+            <h2 class="text">Anil Barwar</h2>
+        </div>
+    </div>
+    <div id="container" class="glass"></div>
+    <div id="flag" class="glass" onclick="toggleFlag()">
+        <div></div>
+    </div>
+</body>
+
+</html>
